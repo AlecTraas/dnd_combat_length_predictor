@@ -12,4 +12,5 @@ Since each JSONL file consists of a single full combat encounter, each one will 
 - Roll20, D&DBeyond, and other online tabletop systems which already have a wealth of tools to help dungeon masters with session planning
 
 ## KPIs
-- How well does our model work on a withheld test set?
+- Measure the difference in performance for our model compared to a baseline model, e.g. average combat length over the dataset.
+- Count how many independent features we can extract which are good predictors for combat length.
